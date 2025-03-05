@@ -1,0 +1,50 @@
+header{
+    flex-basis: 100%;
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 5px;
+}
+
+nav{
+    flex-basis: 100%;
+    background-color: gainsboro;
+    margin: 5px;
+    display: flex;
+}
+nav a{
+    padding: 20px;
+    overflow: auto;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+aside.left {
+    background: #F1F1F1;
+    flex: 1 0;
+    padding: 20px;
+    margin: 5px;
+}
+article {
+    text-align: left;
+    background: #F1F1F1;
+    flex: 3 0;
+    padding: 20px 20px 100px;
+    margin: 5px;
+}
+aside.right {
+    background: #F1F1F1;
+    flex: 1 0;
+    padding: 20px;
+    margin: 5px;
+}
+
+footer{
+    background-color: gainsboro;
+    flex-basis: 100%;
+    padding: 20px;
+    margin: 5px;
+}

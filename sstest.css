@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+h2 {
+    color: #000;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.item {
+    margin-top: 15px;
+}
+
+.years {
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+}
+
+h3 {
+    color: #333;
+    margin: 5px 0;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}

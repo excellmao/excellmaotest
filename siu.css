@@ -1,0 +1,65 @@
+#name {
+    font-size: 3em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00023a;
+    margin: 0;
+    padding: 0;
+}
+
+#mail {
+    font-size: 1em;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #9c9c9c;
+    margin: 0;
+    padding: 0;
+    transform: translate(0%, -250%);
+}
+
+body {
+    margin-top: 1cm;
+    margin-left: 7cm;
+    margin-right: 7cm;
+}
+
+#box {
+    background-color: rgb(193, 214, 248);
+    color: rgb(73, 141, 243);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 100; 
+    color: #35597c;
+    line-height: 1.4;
+    text-align: center;
+    position: relative;
+    transform: translate(360%, -150%);
+}
+
+#aboutMe{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 100; 
+    color: #1A2B3C;
+    line-height: 1.4;
+}
+
+.skill {
+    display: flex;
+    gap: 50px;
+}
+
+.section {
+    background: white;
+    padding: 0px;
+    border-radius: 0px;
+    width: 45%;
+}
+
+.item {
+    margin-top: 15px;
+}
+
+

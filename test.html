@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats Boxes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            padding: 20px;
+            max-width: 800px;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .box:nth-child(odd) {
+            background: #f9fafb;
+        }
+        .box:hover {
+            background: #eef2ff;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+        .number {
+            font-size: 2em;
+            color: #4f46e5;
+            font-weight: lighter;
+        }
+        .title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .description {
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p class="number">+60</p>
+            <p class="title">Projects</p>
+            <p class="description">Adapting and creating solutions for customer's needs</p>
+        </div>
+        <div class="box">
+            <p class="number">50%</p>
+            <p class="title">Web</p>
+            <p class="description">Applications development integrating third-party services and mobile client(s)</p>
+        </div>
+        <div class="box">
+            <p class="number">30%</p>
+            <p class="title">Technical solutions</p>
+            <p class="description">Such as web services, scripts, configurations</p>
+        </div>
+        <div class="box">
+            <p class="number">20%</p>
+            <p class="title">Leading</p>
+            <p class="description">Web projects and ensure the quality of delivery</p>
+        </div>
+    </div>
+</body>
+</html>
